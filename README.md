@@ -11,5 +11,6 @@ python ValidUrlChecker.py file.txt
 # valid.txt 
 https://google.com: 200 |Google<br />
 https://youtube.com: 200 |YouTube<br />
-https://bing.com: 200 |Bing
+https://bing.com: 200 |Bing<br/>
+https://www.geeksforgeeks.org/c-programming-language: 200 |C Programming Language - GeeksforGeeks
 
