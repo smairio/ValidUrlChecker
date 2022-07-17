@@ -19,7 +19,7 @@ for url in urls:
 			soup = BeautifulSoup(reqs.text,'html.parser')
 			for title in soup.find_all('title'):
 				print(url+": "+title.get_text())
-				with open("result.txt","a",encoding="utf-8") as f:
+				with open("valid.txt","a",encoding="utf-8") as f:
 					f.write(url+": "+str(reqs.status_code)+" |"+title.get_text())
 					f.write('\n')
 					f.close()
